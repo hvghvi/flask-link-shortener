@@ -4,7 +4,7 @@ class Link:
             raise ValueError("Link ID should be an integer.")
         self.__link_id = link_id
         self.__url = url
-        self.__updated_link = None
+        self.__updated_link = None 
 
 
     @property
@@ -19,5 +19,7 @@ class Link:
     def updated_link(self) -> str:
         return self.__updated_link
 
-    
+    def update_link(self, link) -> str:
+        self.__updated_link = link
+        return link
     
