@@ -19,7 +19,5 @@ class Link:
     def updated_link(self) -> str:
         return self.__updated_link
 
-
-
-
+    
     
