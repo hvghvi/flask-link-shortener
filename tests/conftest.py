@@ -1,5 +1,6 @@
 import pytest
 from link_shortener.domain.link import Link
+from link_shortener.domain.codes import Codes
 
 @pytest.fixture
 def new_link(): 
